@@ -1,0 +1,23 @@
+[
+  {
+    "rule_id": "anomaly_detected",
+    "log": "Failed login attempt detected",
+    "features": {"length": 29, "error_flag": 0, "fail_flag": 1, "word_count": 5},
+    "iso_pred": -1,
+    "river_score": 4.2
+  },
+  {
+    "rule_id": "anomaly_detected",
+    "log": "Potential SQL injection attack",
+    "features": {"length": 30, "error_flag": 0, "fail_flag": 0, "word_count": 4},
+    "iso_pred": -1,
+    "river_score": 3.7
+  },
+  {
+    "rule_id": "anomaly_detected",
+    "log": "Malware detected in temp folder",
+    "features": {"length": 30, "error_flag": 0, "fail_flag": 0, "word_count": 5},
+    "iso_pred": -1,
+    "river_score": 4.5
+  }
+]

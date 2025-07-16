@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Run All",
+      "configurations": ["Adapter", "Log Server", "Target Script"]
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Adapter",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/adapter.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Log Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/log_server.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Target Script",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/target_script.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
